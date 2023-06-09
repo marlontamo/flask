@@ -20,5 +20,12 @@ def contact():
 
 @app.route("/gallery")
 def gallery():
-    
+
     return render_template("gallery.html",title="Gallery")
+
+@app.route("/openAI")
+def openAI():
+    return render_template("openAI.html",title="OpenAI")
+    
+   
+
